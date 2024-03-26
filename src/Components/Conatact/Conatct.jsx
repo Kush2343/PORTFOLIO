@@ -2,7 +2,7 @@ import React from 'react'
 
 function Conatct() {
   return (
-<section className="md:px-20 sm:px-5" data-aos="fade">
+<section className="md:px-20 sm:px-5 sm:pb-20" data-aos="fade">
       <div className="bg-[--bg-color] lg:rounded-xl w-full md:rounded-none lg:px-5 px-3 sm:px-3 md:px-4">
             <div class="py-12">
                 <h2 class="text-[--main-color] text-center md:text-left pb-8 text-2xl  lg:text-4xl after-effect after:left-40 after:top-5">Contact</h2>
