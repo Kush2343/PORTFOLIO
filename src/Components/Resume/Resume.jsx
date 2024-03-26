@@ -14,6 +14,7 @@ import { FaGolang } from "react-icons/fa6";
 import { SiSolidity } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import { PiCertificateBold } from "react-icons/pi";
+import { FaLaptopCode } from "react-icons/fa";
 
 function Resume() {
   return (
@@ -64,19 +65,7 @@ function Resume() {
 
           <div>
             <div className="flex items-center space-x-2 mb-4 ">
-              <svg
-                stroke="currentColor"
-                fill="currentColor"
-                stroke-width="0"
-                viewBox="0 0 24 24"
-                className="text-6xl text-[--main-color]"
-                height="1em"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path fill="none" d="M0 0h24v24H0V0z"></path>
-                <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"></path>
-              </svg>
+            <FaLaptopCode className="text-6xl text-[--main-color]" />
               <h4 className="text-3xl text-[--text-color] font-medium">
                 Experience
               </h4>
