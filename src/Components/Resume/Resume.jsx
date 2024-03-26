@@ -105,7 +105,7 @@ function Resume() {
 
           <div>
             <div className="flex items-center space-x-2 mb-4 ">
-            <PiCertificateBold />
+            <PiCertificateBold className="text-6xl text-[--main-color]" />
               <h4 className="text-3xl text-[--text-color] font-medium">
                 Certifications
               </h4>
