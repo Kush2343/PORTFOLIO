@@ -13,7 +13,7 @@ function About() {
     <section className="md:px-20 sm:px-5" data-aos="fade">
       <div className="bg-[--bg-color] lg:rounded-xl w-full md:rounded-none lg:px-5 px-3 sm:px-3 md:px-4">
         <h2 className="text-[--main-color] text-center md:text-left py-5 text-2xl  lg:text-4xl after-effect after:left-48">
-          About Me
+          About My
         </h2>
         <div className="grid grid-cols-12 md:gap-10 pt-4 md:pt-[5px] items-center">
           <div className="col-span-12 md:col-span-4">
