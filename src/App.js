@@ -19,18 +19,17 @@ function App() {
   return (
     <div className='bg'>
     <>
-    <Header/>
 <BrowserRouter>
+    <Header/>
 <Routes>
   <Route path='/' element={<Home/>}/>
-  <Route path='/home' element={<Home/>}/>
   <Route path='/about' element={<About/>}/>
   <Route path='/resume' element={<Resume/>}/>
   <Route path='/projects' element={<Project/>}/>
   <Route path='/contact' element={<Conatct/>}/>
 </Routes>
-</BrowserRouter>
 <Footer/>
+</BrowserRouter>
 </>
 </div>
   );
